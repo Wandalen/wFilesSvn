@@ -16,7 +16,7 @@
   {
     "url" : "https://github.com/Wandalen/wFilesSvn/issues"
   },
-  "dependencies" : { "wTools" : "" },
-  "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0", "wfilessvn" : "file:." },
+  "dependencies" : { "wTools" : "alpha" },
+  "devDependencies" : { "eslint" : "7.1.0", "wfilessvn" : "file:.", "wTesting" : "alpha" },
   "keywords" : [ "wTools" ]
 }
