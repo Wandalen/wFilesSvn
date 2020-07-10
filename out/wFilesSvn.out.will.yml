@@ -1458,6 +1458,4 @@ module:
       ../.im.will.yml:
         hash: c30c79513c6e4da3280368cd7767148e
         size: 4660
-      wFilesSvn.out.will.yml:
-        hash: f076eb9527f112360c4eb02ce9f7b439
-        size: 36909
+      wFilesSvn.out.will.yml: *ref_0
