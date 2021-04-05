@@ -63,8 +63,8 @@ path:
       raw: compiled
       content: prime
   npm.proto.entry:
-    - /pro/module/wFilesSvn/proto/wtools/Tools.s
-    - /pro/module/wFilesSvn/proto/node_modules/wfilessvn
+    - proto/wtools/Tools.s
+    - proto/node_modules/wfilessvn
 reflector:
   reflect.proto:
     inherit: predefined.*
