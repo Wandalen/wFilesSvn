@@ -6,8 +6,8 @@ consistency:
     hash: ccd221295dbfb897cb1ca404f9b419da
     size: 1667
   ../.im.will.yml: &ref_1
-    hash: dddb4eed457eb1a146747ea3e524517d
-    size: 4678
+    hash: d6041f55a787ab401ea23ad2314ad2b8
+    size: 4682
 module:
   wFilesSvn.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfilessvn
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfilessvn
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wfilessvn
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: ccd221295dbfb897cb1ca404f9b419da
         size: 1667
       ../.im.will.yml:
-        hash: dddb4eed457eb1a146747ea3e524517d
-        size: 4678
+        hash: d6041f55a787ab401ea23ad2314ad2b8
+        size: 4682
